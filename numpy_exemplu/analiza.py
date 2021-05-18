@@ -6,7 +6,7 @@ from numpy.lib.stride_tricks import sliding_window_view
 a=np.array([1,2,3,4,5])
 print(a)  
 print(a.dtype) #tipul de date
-print(a.shape)  #lingimea 
+print(a.shape)  #lungimea 
 print(a[4]) #arata elementul cu indexul  4
 
 b=np.array([[1,2,3],[4,5,6],[7,8,9]])
