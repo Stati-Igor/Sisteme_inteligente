@@ -1,10 +1,10 @@
 import pandas as ps
 import matplotlib.pyplot as plt
 
-climatic_2016 = ps.read_csv('MortalitateEU.csv')
+statist_Eu = ps.read_csv('MortalitateEU.csv')
 #print('Dimensiunea tabelului este: ' ,climatic_2016.shape)
 #print('Numarul toral de celule: ' ,climatic_2016.size)
-#print(climatic_2016.info())
+#print(climatic_2016.info()) #informatii depre tabel
 #climatic_2016 = climatic_2016.astype({'ALT': 'float32', 'TMED': 'float32', 'TMAX': 'float32', 'TMIN': 'float32', 'R24': 'float32'})
 #print(climatic_2016.info())
 diff = climatic_2016.LAT- climatic_2016.LAT.astype('float32')
